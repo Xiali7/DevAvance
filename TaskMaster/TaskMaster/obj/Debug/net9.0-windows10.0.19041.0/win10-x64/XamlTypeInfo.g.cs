@@ -7,17 +7,15 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System.Diagnostics.CodeAnalysis;
-
 
 namespace TaskMaster.WinUI
 {
     public partial class App : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2409")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2307")]
         private global::TaskMaster.TaskMaster_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2409")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2307")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         private global::TaskMaster.TaskMaster_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
@@ -34,7 +32,7 @@ namespace TaskMaster.WinUI
         /// <summary>
         /// GetXamlType(Type)
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2409")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2307")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
@@ -44,7 +42,7 @@ namespace TaskMaster.WinUI
         /// <summary>
         /// GetXamlType(String)
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2409")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2307")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.IXamlType GetXamlType(string fullName)
         {
@@ -54,7 +52,7 @@ namespace TaskMaster.WinUI
         /// <summary>
         /// GetXmlnsDefinitions()
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2409")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2307")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.XmlnsDefinition[] GetXmlnsDefinitions()
         {
@@ -68,9 +66,9 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
     /// <summary>
     /// Main class for providing metadata for the app or library
     /// </summary>
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2409")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2307")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    public sealed partial class XamlMetaDataProvider : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
+    public sealed class XamlMetaDataProvider : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
         private global::TaskMaster.TaskMaster_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
@@ -112,7 +110,7 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2409")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2307")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlTypeInfoProvider
     {
@@ -223,10 +221,10 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
         string[] _typeNameTable = null;
         global::System.Type[] _typeTable = null;
-        
+
         private void InitTypeTables()
         {
-            _typeNameTable = new string[35];
+            _typeNameTable = new string[32];
             _typeNameTable[0] = "Microsoft.Maui.MauiWinUIApplication";
             _typeNameTable[1] = "Microsoft.UI.Xaml.Application";
             _typeNameTable[2] = "Microsoft.UI.Xaml.LaunchActivatedEventArgs";
@@ -259,11 +257,8 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
             _typeNameTable[29] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
             _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
             _typeNameTable[31] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[33] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[34] = "Int32";
 
-            _typeTable = new global::System.Type[35];
+            _typeTable = new global::System.Type[32];
             _typeTable[0] = typeof(global::Microsoft.Maui.MauiWinUIApplication);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.Application);
             _typeTable[2] = typeof(global::Microsoft.UI.Xaml.LaunchActivatedEventArgs);
@@ -296,9 +291,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
             _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
             _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
             _typeTable[31] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[33] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[34] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -338,37 +330,10 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
         private object Activate_7_MauiNavigationView() { return new global::Microsoft.Maui.Platform.MauiNavigationView(); }
         private object Activate_8_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
         private object Activate_30_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
-        private object Activate_32_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
-        private void StaticInitializer_0_MauiWinUIApplication() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.MauiWinUIApplication).TypeHandle);
-        private void StaticInitializer_3_IServiceProvider() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.IServiceProvider).TypeHandle);
-        private void StaticInitializer_4_IApplication() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.IApplication).TypeHandle);
-        private void StaticInitializer_5_ShellView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.Controls.Platform.ShellView).TypeHandle);
-        private void StaticInitializer_6_RootNavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.Platform.RootNavigationView).TypeHandle);
-        private void StaticInitializer_7_MauiNavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.Maui.Platform.MauiNavigationView).TypeHandle);
-        private void StaticInitializer_8_NavigationView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationView).TypeHandle);
-        private void StaticInitializer_10_Thickness() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Thickness).TypeHandle);
-        private void StaticInitializer_11_ValueType() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.ValueType).TypeHandle);
-        private void StaticInitializer_17_NavigationViewDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode).TypeHandle);
-        private void StaticInitializer_18_Enum() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Enum).TypeHandle);
-        private void StaticInitializer_19_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::System.Object>).TypeHandle);
-        private void StaticInitializer_21_NavigationViewBackButtonVisible() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible).TypeHandle);
-        private void StaticInitializer_25_NavigationViewOverflowLabelMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode).TypeHandle);
-        private void StaticInitializer_26_NavigationViewPaneDisplayMode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode).TypeHandle);
-        private void StaticInitializer_28_NavigationViewSelectionFollowsFocus() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus).TypeHandle);
-        private void StaticInitializer_29_NavigationViewShoulderNavigationEnabled() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled).TypeHandle);
-        private void StaticInitializer_30_NavigationViewTemplateSettings() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings).TypeHandle);
-        private void StaticInitializer_32_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_33_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
         private void VectorAdd_19_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_33_IList(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
-            var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
             collection.Add(newItem);
         }
 
@@ -384,7 +349,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 0:   //  Microsoft.Maui.MauiWinUIApplication
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Application"));
-                userType.StaticInitializer = StaticInitializer_0_MauiWinUIApplication;
                 userType.AddMemberName("LaunchActivatedEventArgs");
                 userType.AddMemberName("Services");
                 userType.AddMemberName("Application");
@@ -401,14 +365,12 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 3:   //  System.IServiceProvider
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_3_IServiceProvider;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 4:   //  Microsoft.Maui.IApplication
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_4_IApplication;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
@@ -416,7 +378,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
             case 5:   //  Microsoft.Maui.Controls.Platform.ShellView
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Platform.RootNavigationView"));
                 userType.Activator = Activate_5_ShellView;
-                userType.StaticInitializer = StaticInitializer_5_ShellView;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
@@ -424,7 +385,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
             case 6:   //  Microsoft.Maui.Platform.RootNavigationView
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Platform.MauiNavigationView"));
                 userType.Activator = Activate_6_RootNavigationView;
-                userType.StaticInitializer = StaticInitializer_6_RootNavigationView;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
@@ -432,7 +392,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
             case 7:   //  Microsoft.Maui.Platform.MauiNavigationView
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView"));
                 userType.Activator = Activate_7_MauiNavigationView;
-                userType.StaticInitializer = StaticInitializer_7_MauiNavigationView;
                 userType.AddMemberName("NavigationViewBackButtonMargin");
                 userType.SetIsBindable();
                 xamlType = userType;
@@ -441,7 +400,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
             case 8:   //  Microsoft.UI.Xaml.Controls.NavigationView
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
                 userType.Activator = Activate_8_NavigationView;
-                userType.StaticInitializer = StaticInitializer_8_NavigationView;
                 userType.AddMemberName("AlwaysShowHeader");
                 userType.AddMemberName("AutoSuggestBox");
                 userType.AddMemberName("CompactModeThresholdWidth");
@@ -488,14 +446,12 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 10:   //  Microsoft.UI.Xaml.Thickness
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                userType.StaticInitializer = StaticInitializer_10_Thickness;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 11:   //  System.ValueType
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.StaticInitializer = StaticInitializer_11_ValueType;
                 xamlType = userType;
                 break;
 
@@ -521,7 +477,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 17:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_17_NavigationViewDisplayMode;
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
                 userType.AddEnumValue("Expanded", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Expanded);
@@ -530,13 +485,11 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 18:   //  System.Enum
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                userType.StaticInitializer = StaticInitializer_18_Enum;
                 xamlType = userType;
                 break;
 
             case 19:   //  System.Collections.Generic.IList`1<Object>
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_19_IList;
                 userType.CollectionAdd = VectorAdd_19_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
@@ -548,7 +501,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 21:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_21_NavigationViewBackButtonVisible;
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Auto);
@@ -569,7 +521,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 25:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_25_NavigationViewOverflowLabelMode;
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
                 xamlType = userType;
@@ -577,7 +528,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 26:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_26_NavigationViewPaneDisplayMode;
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
                 userType.AddEnumValue("Top", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Top);
@@ -592,7 +542,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 28:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_28_NavigationViewSelectionFollowsFocus;
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
                 xamlType = userType;
@@ -600,7 +549,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 29:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.StaticInitializer = StaticInitializer_29_NavigationViewShoulderNavigationEnabled;
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
                 userType.AddEnumValue("Never", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Never);
@@ -609,39 +557,11 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
             case 30:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
                 userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.StaticInitializer = StaticInitializer_30_NavigationViewTemplateSettings;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 31:   //  Microsoft.UI.Xaml.DependencyObject
-                xamlType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 32:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
-                userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_32_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_32_TreeViewNode;
-                userType.AddMemberName("Children");
-                userType.AddMemberName("Content");
-                userType.AddMemberName("Depth");
-                userType.AddMemberName("HasChildren");
-                userType.AddMemberName("HasUnrealizedChildren");
-                userType.AddMemberName("IsExpanded");
-                userType.AddMemberName("Parent");
-                userType.SetIsBindable();
-                xamlType = userType;
-                break;
-
-            case 33:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
-                userType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_33_IList;
-                userType.CollectionAdd = VectorAdd_33_IList;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 34:   //  Int32
                 xamlType = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -657,11 +577,11 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
                 {
                     var otherProviders = new global::System.Collections.Generic.List<global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider>();
                     global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider provider;
-                    provider = new global::Microsoft.UI.Xaml.XamlTypeInfo.XamlControlsXamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
-                    otherProviders.Add(provider); 
                     provider = new global::Microsoft.Maui.Controls.Controls_Core_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     provider = new global::Microsoft.Maui.Core_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Microsoft.UI.Xaml.XamlTypeInfo.XamlControlsXamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     _otherProviders = otherProviders;
                 }
@@ -1077,56 +997,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.TemplateSettings;
         }
-        private object get_41_TreeViewNode_Children(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
-            return that.Children;
-        }
-        private object get_42_TreeViewNode_Content(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
-            return that.Content;
-        }
-        private void set_42_TreeViewNode_Content(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
-            that.Content = (global::System.Object)Value;
-        }
-        private object get_43_TreeViewNode_Depth(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
-            return that.Depth;
-        }
-        private object get_44_TreeViewNode_HasChildren(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
-            return that.HasChildren;
-        }
-        private object get_45_TreeViewNode_HasUnrealizedChildren(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
-            return that.HasUnrealizedChildren;
-        }
-        private void set_45_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
-            that.HasUnrealizedChildren = (global::System.Boolean)Value;
-        }
-        private object get_46_TreeViewNode_IsExpanded(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
-            return that.IsExpanded;
-        }
-        private void set_46_TreeViewNode_IsExpanded(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
-            that.IsExpanded = (global::System.Boolean)Value;
-        }
-        private object get_47_TreeViewNode_Parent(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
-            return that.Parent;
-        }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -1419,66 +1289,19 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
                 xamlMember.Getter = get_40_NavigationView_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
-                userType = (global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_41_TreeViewNode_Children;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
-                userType = (global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlMember(this, "Content", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_42_TreeViewNode_Content;
-                xamlMember.Setter = set_42_TreeViewNode_Content;
-                break;
-            case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
-                userType = (global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_43_TreeViewNode_Depth;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
-                userType = (global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_44_TreeViewNode_HasChildren;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
-                userType = (global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_45_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_45_TreeViewNode_HasUnrealizedChildren;
-                break;
-            case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
-                userType = (global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_46_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_46_TreeViewNode_IsExpanded;
-                break;
-            case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
-                userType = (global::TaskMaster.TaskMaster_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember = new global::TaskMaster.TaskMaster_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_47_TreeViewNode_Parent;
-                xamlMember.SetIsReadOnly();
-                break;
             }
             return xamlMember;
         }
     }
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2409")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2307")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal partial class XamlSystemBaseType : global::Microsoft.UI.Xaml.Markup.IXamlType
+    internal class XamlSystemBaseType : global::Microsoft.UI.Xaml.Markup.IXamlType
     {
         string _fullName;
         global::System.Type _underlyingType;
 
-        public XamlSystemBaseType(string fullName, 
-            global::System.Type underlyingType)
+        public XamlSystemBaseType(string fullName, global::System.Type underlyingType)
         {
             _fullName = fullName;
             _underlyingType = underlyingType;
@@ -1516,15 +1339,14 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
     }
     
     internal delegate object Activator();
-    internal delegate void StaticInitializer();
     internal delegate void AddToCollection(object instance, object item);
     internal delegate void AddToDictionary(object instance, object key, object item);
     internal delegate object CreateFromStringMethod(string args);
     internal delegate object BoxInstanceMethod(object instance);
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2409")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2307")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal partial class XamlUserType : global::TaskMaster.TaskMaster_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::TaskMaster.TaskMaster_XamlTypeInfo.XamlSystemBaseType
         , global::Microsoft.UI.Xaml.Markup.IXamlType
     {
         global::TaskMaster.TaskMaster_XamlTypeInfo.XamlTypeInfoProvider _provider;
@@ -1542,8 +1364,7 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::TaskMaster.TaskMaster_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, 
-            global::System.Type fullType, global::Microsoft.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::TaskMaster.TaskMaster_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Microsoft.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -1609,7 +1430,7 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
 
         override public void RunInitializer() 
         {
-            StaticInitializer();
+            global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(UnderlyingType.TypeHandle);
         }
 
         override public object CreateFromString(string input)
@@ -1668,7 +1489,7 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
                     }
                 }
 
-                return global::System.Convert.ChangeType(value, global::System.Enum.GetUnderlyingType(this.UnderlyingType));
+                return System.Convert.ChangeType(value, System.Enum.GetUnderlyingType(this.UnderlyingType));
             }
             throw new global::System.ArgumentException(input, FullName);
         }
@@ -1676,7 +1497,6 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
         // --- End of Interface methods
 
         public Activator Activator { get; set; }
-        public StaticInitializer StaticInitializer { get; set; }
         public AddToCollection CollectionAdd { get; set; }
         public AddToDictionary DictionaryAdd { get; set; }
         public CreateFromStringMethod CreateFromStringMethod {get; set; }
@@ -1755,9 +1575,9 @@ namespace TaskMaster.TaskMaster_XamlTypeInfo
     internal delegate object Getter(object instance);
     internal delegate void Setter(object instance, object value);
 
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2409")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2307")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal partial class XamlMember : global::Microsoft.UI.Xaml.Markup.IXamlMember
+    internal class XamlMember : global::Microsoft.UI.Xaml.Markup.IXamlMember
     {
         global::TaskMaster.TaskMaster_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;

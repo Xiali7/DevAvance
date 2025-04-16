@@ -30,6 +30,14 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
+            <!-- Ajout d'un Editor pour afficher les messages -->
+            <Editor
+                x:Name="DatabaseStatusEditor"
+                IsReadOnly="True"
+                HeightRequest="200"
+                BackgroundColor="LightGray"
+                Text="Statut de la connexion à la base de données s'affichera ici..." />
         </VerticalStackLayout>
     </ScrollView>
 

@@ -20,6 +20,11 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+        public void DisplayDatabaseInfo(string message)
+        {
+            // Ajouter le message à l'Editor
+            DatabaseStatusEditor.Text += message + Environment.NewLine;
+        }
     }
 
 }

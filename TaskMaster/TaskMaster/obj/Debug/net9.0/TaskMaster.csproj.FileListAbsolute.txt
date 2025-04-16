@@ -1,0 +1,6 @@
+A:\BUTInfo\DevAvance\YouSpinMeRightAroundBaby\TaskMaster\TaskMaster\obj\Debug\net9.0\TaskMaster.csproj.AssemblyReference.cache
+A:\BUTInfo\DevAvance\YouSpinMeRightAroundBaby\TaskMaster\TaskMaster\obj\Debug\net9.0\TaskMaster.GeneratedMSBuildEditorConfig.editorconfig
+A:\BUTInfo\DevAvance\YouSpinMeRightAroundBaby\TaskMaster\TaskMaster\obj\Debug\net9.0\TaskMaster.AssemblyInfoInputs.cache
+A:\BUTInfo\DevAvance\YouSpinMeRightAroundBaby\TaskMaster\TaskMaster\obj\Debug\net9.0\TaskMaster.AssemblyInfo.cs
+A:\BUTInfo\DevAvance\YouSpinMeRightAroundBaby\TaskMaster\TaskMaster\obj\Debug\net9.0\TaskMaster.csproj.CoreCompileInputs.cache
+A:\BUTInfo\DevAvance\YouSpinMeRightAroundBaby\TaskMaster\TaskMaster\obj\Debug\net9.0\TaskMaster.sourcelink.json
